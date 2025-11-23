@@ -17,7 +17,7 @@ Provide a short summary of the incident (2–3 sentences):
 | 12:05 | Analyst validated abnormal activity |
 | 12:10 | Investigation initiated |
 | … | … |
-![description](images/wireshark.png)
+![description](images/wireshark_to_git.png)
 
 ## 🎯 3. Detection
 **Detection Source:** (IDS / SIEM / Firewall / Endpoint / Splunk / Cloud logs)  
