@@ -6,7 +6,7 @@ This report presents the analysis of a simulated **RDP brute force attack**, inv
 - The attack logs were artificially generated using ChatGPT for training purposes.
 - The logs were ingested into Splunk to simulate a real SOC investigation workflow.
 - The goal: identify suspicious behavior, detect brute-force patterns, analyze IPS/SIEM correlation, and map findings to **MITRE ATT&CK T1110 – Brute Force**  
-  Source: https://attack.mitre.org/techniques/T1110/
+
 
 ---
 
