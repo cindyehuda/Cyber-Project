@@ -1,10 +1,7 @@
 # 🛡️ Penetration Test Report --- Stored XSS Attack
-name:
-linkdin:
-htb:
-thm:
-מש
+name: yehuda cohen
 
+מ
 ## 📌 1. Executive Summary
 
 A high-level overview of the test, the assessed system, scope, and the
@@ -13,22 +10,22 @@ overall security posture regarding the identified vulnerability.
 ## 🎯 2. Scope of Testing
 
 -   IP: 10.0.2.15
--   URL: http://10.0.2.15/DVWA/vulnerabilities/xss_s/
+-   URL: http://10.0.2.15/DVWA/vulnerabilities/xss_s
 
 
 ## 🧪 3. Methodology
 
 Testing was conducted according to widely accepted penetration-testing
 standards:\
-- OWASP Web Security Testing Guide (WSTG)\
+- OWASP Web Security Testing Guide (WSTG)
 - PTES (Penetration Testing Execution Standard)
 
-Stages of the assessment:\
-1. Reconnaissance\
-2. Client-side and server-side testing\
-3. Input injection testing\
-4. Exploitation and validation\
-5. Risk analysis\
+Stages of the assessment:
+1. Reconnaissance
+2. Client-side and server-side testing
+3. Input injection testing
+4. Exploitation and validation
+5. Risk analysis
 6. Recommendations and mitigation planning
 
 ## ⚠️ 4. Vulnerability Details --- Stored XSS
@@ -40,16 +37,16 @@ implications.
 
 ### 4.2 Impact
 
--   Execution of arbitrary JavaScript in users' browsers\
--   Theft of session tokens or sensitive data\
--   Account takeover\
--   Actions performed on behalf of unsuspecting users\
+-   Execution of arbitrary JavaScript in users' browsers
+-   Theft of session tokens or sensitive data
+-   Account takeover
+-   Actions performed on behalf of unsuspecting users
 -   Delivery of phishing payloads, redirects, keyloggers, etc.
 
 ### 4.3 Affected Component
 
--   Vulnerable module/page\
--   Relevant URL\
+-   Vulnerable module/page
+-   Relevant URL
 -   Parameters vulnerable to injection
 
 ### 4.4 Proof of Concept (PoC)
@@ -122,15 +119,15 @@ The attacker can now view logged keystrokes captured from the victim’s browser
 
 ### 8.1 Immediate Fixes
 
--   Implement HTML encoding\
--   Sanitize user input\
+-   Implement HTML encoding
+-   Sanitize user input
 -   Block dangerous characters
 
 ### 8.2 Long-Term Security Improvements
 
--   Enforce CSP\
--   Use HTTPOnly cookies\
--   Apply WAF rules\
+-   Enforce CSP
+-   Use HTTPOnly cookies
+-   Apply WAF rules
 -   Improve secure coding practices
 
 
