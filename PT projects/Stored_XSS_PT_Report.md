@@ -1,7 +1,7 @@
 # 🛡️ Penetration Test Report --- Stored XSS Attack
 name: yehuda cohen
 
-מ
+
 ## 📌 1. Executive Summary
 
 A high-level overview of the test, the assessed system, scope, and the
